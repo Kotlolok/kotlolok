@@ -1,0 +1,129 @@
+.help {
+    background: #0C0D2E;
+    position: relative;
+    overflow: hidden;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.help__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+
+.help__desc-title {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    width: 666px;
+    margin: 0 auto;
+}
+
+.help__desc-text {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 699px;
+    margin: 0 auto;
+}
+
+.stolb {
+    position: absolute;
+    transform: translateX(-85px);
+    top: -390px;
+}
+.help__cards-card-desc {
+    width: 345px;
+    height: 130px;
+}
+
+.help__cards-card-desc-img {
+    background: #FFFFFF1F;
+    width: 20px;
+    height: 20px;
+    margin-left: 325px;
+}
+
+.help__cards-card-desc-img img {
+    margin: 6px;
+}
+
+.help__cards-card-desc-ttile {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    display: flex;
+    justify-content: end;
+    margin-top: 12px;
+}
+
+.help__cards-card-desc-text {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 340px;
+    margin-top: 10px;
+    text-align: right;
+    margin-left: 5px;
+}
+
+.help__cards-card {
+    display: flex;
+    flex-direction: column;
+    gap: 97px;
+    width: 345px;
+    padding-top: 49px;
+}
+
+.help__cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.help__cards-card3 {
+    display: flex;
+    flex-direction: column;
+    gap: 97px;
+    width: 345px;
+    padding-top: 49px;
+}
+
+.help__cards-card3-desc {
+    width: 345px;
+    height: 130px;
+}
+
+.help__cards-card3-desc-img {
+    background: #FFFFFF1F;
+    width: 20px;
+    height: 20px;
+}
+
+.help__cards-card3-desc-img img {
+    margin: 6px;
+}
+
+.help__cards-card3-desc-title {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 12px;
+}
+
+.help__cards-card3-desc-text {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 340px;
+    margin-top: 10px;
+}

@@ -1,0 +1,71 @@
+.footer {
+    background: #0C0D2E;
+
+}
+
+.footer__wrap {
+    text-align: center;
+}
+
+.footer__logo {
+    padding-top: 60px;
+}
+
+.footer__text {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.footer__svg {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.footer__email {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 35px 0 10px 0;
+}
+
+.footer__form-input {
+    width: 400px;
+    height: 48px;
+    border: 2px solid #282B53;
+    outline: none;
+    border-radius: 1px;
+    background: linear-gradient(0deg, #010225, #010225),
+        linear-gradient(0deg, #282B53, #282B53);
+    color: #fff;
+    padding-left: 20px;
+    font-family: 'LeagueSpartan-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.footer__form-btn {
+    width: 132px;
+    height: 48px;
+    margin-top: 52px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    background: #159BE8;
+    cursor: pointer;
+}
+
+.footer__about {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 60px;
+    padding-bottom: 45px;
+}

@@ -1,0 +1,89 @@
+.about {
+    background: #010225;
+}
+
+.about__desc {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.about__desc-link {
+    color: #159BE8;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 180px;
+}
+
+.about__desc-title {
+    color: #FFFFFF;
+    width: 623px;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    margin-bottom: 40px;
+}
+
+.about__logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.about__cards-card-stars {
+    display: flex;
+    gap: 4px;
+    width: 294px;
+    margin-bottom: 26px;
+}
+
+.about__cards-card-stars-star {
+    background: #212250;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.about__cards-card-text-p {
+    width: 288px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.about__cards-card-desc {
+    display: flex;
+    gap: 11px;
+}
+
+.about__cards-card-desc-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.about__cards-card-desc-text-title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.about__cards-card-desc-text-p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.about__cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 160px;
+}

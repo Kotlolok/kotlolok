@@ -1,0 +1,38 @@
+.phone {
+    background: #010225;
+    z-index: 100;
+
+}
+
+.phone__wrap {
+    display: flex;
+    gap: 32px;
+}
+
+.phone__desc {
+    padding: 82px 0 164px 0;
+    width: 633px;
+}
+
+.phone__desc-title {
+    color: #fff;
+    width: 557px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 76px;
+}
+
+.phone__desc-text {
+    color: #fff;
+    width: 617px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 8px 0 14px 0;
+}
+
+.phone__img {
+    position: absolute;
+    top: 0px;
+    transform: translateX(675px);
+}
