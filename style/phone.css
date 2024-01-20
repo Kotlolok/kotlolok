@@ -36,3 +36,71 @@
     top: 0px;
     transform: translateX(675px);
 }
+
+@media screen and (max-width:1500px) {
+    .phone__img {
+        position: relative;
+        bottom: 115px;
+        justify-content: center;
+        transform: translateX(-175px);
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .phone__img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .phone__desc-text {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .phone__desc-text {
+        width: 400px;
+    }
+    .phone__desc {
+        padding: 82px 0 82px 0;
+    }
+    .phone__desc-title {
+        width: 450px;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .phone__desc-text {
+        width: 300px;
+    }
+
+    .phone__desc-title {
+        width: 350px;
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:380px) {
+    .phone__desc-text {
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .phone__desc {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .phone__desc a {
+        margin: 0 auto;
+    }
+
+    .phone__desc-title {
+        width: 250px;
+        font-size: 40px;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 50px;
+    }
+}

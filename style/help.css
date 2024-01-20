@@ -36,6 +36,7 @@
     transform: translateX(-85px);
     top: -390px;
 }
+
 .help__cards-card-desc {
     width: 345px;
     height: 130px;
@@ -126,4 +127,113 @@
     line-height: 24px;
     width: 340px;
     margin-top: 10px;
+}
+
+@media screen and (max-width:1150px) {
+    .help__cards-card3-desc-text {
+       
+    }
+
+    .help__cards {
+        flex-direction: column;
+    }
+
+    .help__cards-card {
+        margin: 0 auto;
+    }
+
+    .help__cards-card3 {
+        margin: 0 auto;
+    }
+
+    .help-cards-card2 {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .help__desc-title {
+        font-size: 30px;
+        width: 400px;
+    }
+
+    .help__desc-text {
+        width: 300px;
+    }
+
+    .stolb {
+        display: none;
+    }
+    .help {
+        padding-top: 82px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .help__desc-title {
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .help__desc-text {
+        width: 225px;
+    }
+
+    .help__cards-card {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .help__cards-card-desc-text {
+        text-align: center;
+    }
+
+    .help__cards-card-desc-ttile {
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+        padding: 10px 0 0 0;
+    }
+
+    .help__cards-card-desc-img {
+        margin: 0 auto;
+    }
+
+    .help__cards-card3 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .help__cards-card3-desc-text {
+        margin: 0 auto;
+    }
+
+    .help__cards-card3-desc-img {
+        margin: 0 auto;
+    }
+
+}
+@media screen and (max-width:380px) {
+    .help-cards-card2 {
+        display: none;
+    }
+    .help__cards-card-desc-text {
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .help__cards-card3-desc-text {
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .help__desc-title {
+        width: 200px;
+    }
+    .help__desc-text {
+        width: 200px;
+    }
+    .help__desc {
+        margin: 0 auto;
+    }
 }

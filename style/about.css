@@ -87,3 +87,31 @@
     justify-content: center;
     padding-bottom: 160px;
 }
+@media screen and (max-width:1400px) {
+    .about__logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 70px;
+    }
+    .about__cards {
+        flex-wrap: wrap;
+        gap: 100px;
+    }    
+}
+@media screen and (max-width:650px) {
+    .about__desc-title {
+        width: 400px;
+    }   
+}
+@media screen and (max-width:450px) {
+    .about__desc-title {
+        width: 300px;
+        font-size: 30px;
+    }   
+}
+@media screen and (max-width:350px) {
+    .about__desc-title {
+        width: 250px;
+        font-size: 25px;
+    }   
+}
